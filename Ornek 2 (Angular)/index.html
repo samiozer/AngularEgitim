@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="ornek2">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Örnek 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+     <script src="./index.js"></script>
+</head>
+
+
+<body ng-controller="ornek2Controller">
+    <form>
+        <p>
+            İsmini Gir :
+            <input type="text" ng-model="name" required/>
+            <button type="button" ng-disabled="!name" ng-click="submit()">Gönder</button>
+        </p>
+        <p ng-show="name">
+            Merhaba {{name}}
+        </p>
+    </form>
+</body>
+
+</html>

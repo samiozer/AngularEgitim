@@ -1,0 +1,23 @@
+{
+  "name": "MyRouteDemo",
+  "authors": [
+    "Sami Özer <sami.ozer@bitalent.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "ng-tour": "ng-route#*",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.5.8"
+  }
+}

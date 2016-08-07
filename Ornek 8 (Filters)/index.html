@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Örnek 7 (Dpendency Injection)</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="./index.js"></script>
+</head>
+
+<body ng-app="myApp">
+ <div ng-controller="myController">
+  <p> {{name | uppercase}}</p>
+  <p> {{uppercaseName()}}</p>
+</div>
+</body>
+
+</html>
